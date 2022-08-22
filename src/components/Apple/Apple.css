@@ -1,0 +1,48 @@
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+}
+
+.apple {
+  padding: 20px 0;
+  width: 400px;
+  border: 1px solid #f0f0f0;
+  border-radius: 10px;
+}
+
+.apple .apple-title {
+  text-align: center;
+}
+
+.apple .apple-total ul {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px dashed #f0f0f0;
+  border-bottom: 1px dashed #f0f0f0;
+}
+
+.apple .apple-list {
+  padding: 0 20px;
+}
+
+.apple .apple-list ul {
+  padding: 0 20px;
+}
+
+.apple .apple-list ul .apple-item {
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+.apple .apple-extract {
+  text-align: center;
+}
